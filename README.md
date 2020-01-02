@@ -1,4 +1,4 @@
-# Run Speed Alexa Skill
+# Run Pace Alexa Skill
 
 A Spring Boot Alexa skill for calculating your run pace
 
@@ -16,6 +16,4 @@ For Systemd:
 1. Update `run-pace-alexa.service` with runtime user name and jar path
 1. Create symlink in `/etc/systemd/system` to `run-pace-alexa.service`
 1. Start service with `systemctl start run-pace-alexa`
-
-
 
