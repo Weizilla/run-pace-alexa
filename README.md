@@ -1,5 +1,7 @@
 # Run Pace Alexa Skill
 
+[![Build Status](https://travis-ci.org/Weizilla/run-pace-alexa.svg?branch=master)](https://travis-ci.org/Weizilla/run-pace-alexa)
+
 A Spring Boot Alexa skill for calculating your run pace
 
 ### Installation
