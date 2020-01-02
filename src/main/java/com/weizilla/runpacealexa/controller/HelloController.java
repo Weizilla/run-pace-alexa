@@ -1,4 +1,4 @@
-package com.weizilla.runspeedalexa.controller;
+package com.weizilla.runpacealexa.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

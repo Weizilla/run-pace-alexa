@@ -1,11 +1,11 @@
-package com.weizilla.runspeedalexa;
+package com.weizilla.runpacealexa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RunSpeedApplication {
+public class RunPaceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RunSpeedApplication.class, args);
+        SpringApplication.run(RunPaceApplication.class, args);
     }
 }
