@@ -1,2 +1,3 @@
-# run-speed-alexa
-Run Speed Alexa Skill
+# Run Speed Alexa Skill
+
+A Spring Boot Alexa skill for calculating your run speed
