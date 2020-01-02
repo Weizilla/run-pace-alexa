@@ -2,10 +2,22 @@ package com.weizilla.runpacealexa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class RunPaceApplication {
+public class RunPaceApplication implements WebMvcConfigurer {
     public static void main(String[] args) {
         SpringApplication.run(RunPaceApplication.class, args);
+    }
+
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        registry.addMapping("/**")
+            .allowedOrigins(
+                "http://*.amazon.com",
+                "http://localhost:8000",
+                "http://localhost:8080"
+            );
     }
 }
